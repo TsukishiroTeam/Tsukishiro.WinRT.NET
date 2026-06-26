@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Tsukishiro.Windows.Runtime.Test/Tsukishiro.Windows.Runtime.Test.csproj" />
+  <Project Path="Tsukishiro.Windows.Runtime/Tsukishiro.Windows.Runtime.csproj" />
+</Solution>
