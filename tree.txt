@@ -1,0 +1,114 @@
+Folder PATH listing
+Volume serial number is 00000052 D690:C403
+C:.
+|   .gitignore
+|   LICENSE
+|   README.md
+|   tree.txt
+|   Tsukishiro.WinRT.slnx
+|   
++---.idea
+|       indexLayout.xml
+|       projectSettingsUpdater.xml
+|       vcs.xml
+|       workspace.xml
+|       
++---Tsukishiro.ComInterops.Generator
+|   |   ComBindingGenerator.cs
+|   |   ComLibReader.cs
+|   |   Ecma335Reader.cs
+|   |   Tsukishiro.WinRT.Generator.csproj
+|   |   WindowsRuntimeBindingGenerator.cs
+|   |   
+|   \---obj
+|           project.assets.json
+|           project.nuget.cache
+|           Tsukishiro.WinRT.Generator.csproj.nuget.dgspec.json
+|           Tsukishiro.WinRT.Generator.csproj.nuget.g.props
+|           Tsukishiro.WinRT.Generator.csproj.nuget.g.targets
+|           
++---Tsukishiro.ComInterops.Utils
+|   |   ComClassImportAttribute.cs
+|   |   ComInstanceMethod.cs
+|   |   ComStaticMethod.cs
+|   |   Tsukishiro.WinRT.Utils.csproj
+|   |   WinRtClassImportAttribute.cs
+|   |   WinRtInstanceMethodAttribute.cs
+|   |   WinRtStaticMethodAttribute.cs
+|   |   
+|   \---obj
+|           project.assets.json
+|           project.nuget.cache
+|           Tsukishiro.WinRT.Utils.csproj.nuget.dgspec.json
+|           Tsukishiro.WinRT.Utils.csproj.nuget.g.props
+|           Tsukishiro.WinRT.Utils.csproj.nuget.g.targets
+|           
++---Tsukishiro.Windows.ComRuntime
+|   |   ComMarshaller.cs
+|   |   Tsukishiro.Windows.Runtime.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---netstandard2.0
+|   +---Models
+|   +---obj
+|   |   |   project.assets.json
+|   |   |   project.nuget.cache
+|   |   |   project.packagespec.json
+|   |   |   rider.project.restore.info
+|   |   |   Tsukishiro.Windows.Runtime.csproj.nuget.dgspec.json
+|   |   |   Tsukishiro.Windows.Runtime.csproj.nuget.g.props
+|   |   |   Tsukishiro.Windows.Runtime.csproj.nuget.g.targets
+|   |   |   
+|   |   \---Debug
+|   |       \---netstandard2.0
+|   |               .NETStandard,Version=v2.0.AssemblyAttributes.cs
+|   |               Tsukishiro.Windows.Runtime.AssemblyInfo.cs
+|   |               Tsukishiro.Windows.Runtime.AssemblyInfoInputs.cache
+|   |               Tsukishiro.Windows.Runtime.assets.cache
+|   |               Tsukishiro.Windows.Runtime.csproj.AssemblyReference.cache
+|   |               Tsukishiro.Windows.Runtime.GeneratedMSBuildEditorConfig.editorconfig
+|   |               Tsukishiro.Windows.Runtime.GlobalUsings.g.cs
+|   |               
+|   \---RuntimeInterops
+|           ComBaseInterop.cs
+|           
++---Tsukishiro.Windows.Runtime.Test
+|   |   Class1.cs
+|   |   Tsukishiro.Windows.Runtime.Test.csproj
+|   |   
+|   +---bin
+|   |   \---Debug
+|   |       \---net10.0
+|   \---obj
+|       |   project.assets.json
+|       |   project.nuget.cache
+|       |   project.packagespec.json
+|       |   rider.project.restore.info
+|       |   Tsukishiro.Windows.Runtime.Test.csproj.nuget.dgspec.json
+|       |   Tsukishiro.Windows.Runtime.Test.csproj.nuget.g.props
+|       |   Tsukishiro.Windows.Runtime.Test.csproj.nuget.g.targets
+|       |   
+|       \---Debug
+|           \---net10.0
+|               |   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+|               |   Tsukishiro.Windows.Runtime.Test.AssemblyInfo.cs
+|               |   Tsukishiro.Windows.Runtime.Test.AssemblyInfoInputs.cache
+|               |   Tsukishiro.Windows.Runtime.Test.assets.cache
+|               |   Tsukishiro.Windows.Runtime.Test.csproj.AssemblyReference.cache
+|               |   Tsukishiro.Windows.Runtime.Test.GeneratedMSBuildEditorConfig.editorconfig
+|               |   Tsukishiro.Windows.Runtime.Test.GlobalUsings.g.cs
+|               |   
+|               +---ref
+|               \---refint
+\---Tsukishiro.WinRT.Types
+    |   Tsukishiro.WinRT.Types.csproj
+    |   WindowsString.cs
+    |   
+    \---obj
+            project.assets.json
+            project.nuget.cache
+            Tsukishiro.WinRT.Types.csproj.nuget.dgspec.json
+            Tsukishiro.WinRT.Types.csproj.nuget.g.props
+            Tsukishiro.WinRT.Types.csproj.nuget.g.targets
+            
